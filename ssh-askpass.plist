@@ -8,7 +8,7 @@
         <array>
             <string>sh</string>
             <string>-c</string>
-            <string>launchctl setenv SSH_ASKPASS /usr/local/bin/ssh-askpass</string>
+            <string>launchctl setenv SSH_ASKPASS /usr/local/bin/ssh-askpass DISPLAY 0</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
